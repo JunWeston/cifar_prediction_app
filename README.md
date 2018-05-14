@@ -17,7 +17,7 @@ This is an extension of the Tensorflow's deep CNN tutorial. There several contri
 To train the CNN network run
  
 ```
-python cifar_prediction_app.py
+python codes/cifar_prediction_app.py
 ```
  
 Script will automatically download the data into the `data/` folder and start the estimation.
@@ -35,7 +35,7 @@ Log files neccessary for running TensorBoard are saved in the `tain/` folder.
 One can therefore run the TensorBoard using e.g.
 
 ```
-cd C:\codes\cifar_prediction_app
+cd C:/codes/cifar_prediction_app
 tensorboard --logdir=train
 ```
  
@@ -44,7 +44,7 @@ tensorboard --logdir=train
 To run the prediction app run
 
 ```
-python cifar_prediction_app.py
+python codes/cifar_prediction_app.py
 ```
 
 You should immediatelly see a web form prompting you to upload an image for classification. `.jgp` or `.png` can be used. After successfully uploading the image you should see a table with estimated probabilities that an object on the image belongs to a class.
