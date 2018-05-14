@@ -1,0 +1,3 @@
+cd C:\codes\cifar_prediction_app
+tensorboard --logdir=train
+

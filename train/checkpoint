@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:\\codes\\stylar_hw\\train\\model.ckpt-150000"
+all_model_checkpoint_paths: "C:\\codes\\stylar_hw\\train\\model.ckpt-129759"
+all_model_checkpoint_paths: "C:\\codes\\stylar_hw\\train\\model.ckpt-135934"
+all_model_checkpoint_paths: "C:\\codes\\stylar_hw\\train\\model.ckpt-142114"
+all_model_checkpoint_paths: "C:\\codes\\stylar_hw\\train\\model.ckpt-148287"
+all_model_checkpoint_paths: "C:\\codes\\stylar_hw\\train\\model.ckpt-150000"
