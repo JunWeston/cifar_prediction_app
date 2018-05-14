@@ -1,2 +1,2 @@
 cd C:\codes\cifar_prediction_app\codes\
-python app_display_image.py
+python cifar_prediction_app.py
