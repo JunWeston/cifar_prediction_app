@@ -50,3 +50,11 @@ python codes/cifar_prediction_app.py
 You should immediatelly see a web form prompting you to upload an image for classification. `.jgp` or `.png` can be used. After successfully uploading the image you should see a table with estimated probabilities that an object on the image belongs to a class.
 
 Note certain amount of memory has to be available for both estimation and prediction of the CNN. 
+
+## Network architecture
+
+The CNN in this repository reuses the network introduced in the [TensorFlow's Tutorial](https://www.tensorflow.org/tutorials/deep_cnn). Source codes for this network can be found at [GitHub](https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10). 
+
+There is a defference to the original network - two dropout layers are added, jest before each of the two fully connected layers.
+
+The network's layers are constructed in `inference` function in `cifar10.py` file.
