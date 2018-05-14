@@ -28,6 +28,16 @@ tf.app.flags.DEFINE_integer('max_steps', 150000, ...
 ```
 
 to change maximum number of iterations.
+
+**TensorBoard**
+
+Log files neccessary for running TensorBoard are saved in the `tain/` folder.
+One can therefore run the TensorBoard using e.g.
+
+```
+cd C:\codes\cifar_prediction_app
+tensorboard --logdir=train
+```
  
 **Prediction**
  
@@ -38,3 +48,5 @@ python cifar_prediction_app.py
 ```
 
 You should immediatelly see a web form prompting you to upload an image for classification. `.jgp` or `.png` can be used. After successfully uploading the image you should see a table with estimated probabilities that an object on the image belongs to a class.
+
+Note certain amount of memory has to be available for both estimation and prediction of the CNN. 
