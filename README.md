@@ -8,7 +8,7 @@ This is an extension of the Tensorflow's deep CNN tutorial. There several contri
 
  - dropout layer is added to the CNN
  - the scripts are adapted for estimation using CIFAR-100 as well as CIFAR-10 dataset
- - web API (uses `flask` can be used to insert own pictures for prediction)
+ - web API (uses `flask`) can be used to insert own pictures for prediction
  
 ## How to launch the application
  
