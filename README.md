@@ -31,7 +31,7 @@ to change maximum number of iterations.
 
 **TensorBoard**
 
-Log files neccessary for running TensorBoard are saved in the `tain/` folder.
+Log files neccessary for running TensorBoard are saved in the `train/` folder.
 One can therefore run the TensorBoard using e.g.
 
 ```
